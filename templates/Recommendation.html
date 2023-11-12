@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<title>Node Recommendation</title>
+			<link rel="stylesheet" href="/static/Stylesheet.css">
+</head>
+			<body>
+				<!-- Place the blurred background here -->
+				<div class="container content">
+					<h1 class="title">Node Recommendation</h1>
+					<form method="POST">
+						<label for="node_name">Enter a Node Name:</label>
+						<br>
+							<input type="text" id="node_name" name="node_name" required><br>
+							<input type="submit" value="Recommend" class="button">
+					</form>
+					{% if node_name %}
+					<h2>Recommended nodes for '{{ node_name }}':</h2>
+										<ul class="recommendations">
+					{% for node in similar_nodes %}
+					<li>{{ node }}</li>
+					{% endfor %}
+					</ul>
+					{% endif %}
+				</div>
+			</body>
+</html>
