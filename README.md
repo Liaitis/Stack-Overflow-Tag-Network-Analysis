@@ -3,14 +3,20 @@ Welcome to the Stack Overflow Tag Network Analysis project repository!
 
 **Overview:**
 In the age of digital collaboration, this project conducts an in-depth analysis of the Stack Overflow Tag Network dataset, unveiling the intricate relationships among technology tags. The primary goal is to empower developers and programmers by unraveling influential tags, identifying communities, and offering personalized recommendations. Utilizing network analysis, centrality measures, and community detection, the project significantly enhances the user experience within the developer ecosystem.
-![Network Visualization](Findings/network.png)
+![Network Visualization](Findings/network.jpg)
 
 **Key Features:**
 Network Analysis: Comprehensive exploration of tag relationships within the Stack Overflow ecosystem.
+
 Centrality Measures: Identification of influential tags through degree, betweenness, and closeness centrality.
+<img src="Findings/Degree_Centrality.png" width="600" height="400" /><img src="Findings/Degree_Centrality_Network.png" width="400" height="400"/>
+<img src="Findings/Betweenness_Centrality.png" width="600" height="400" /><img src="Findings/Betweenness_Centrality_Network.png" width="400" height="400"/>
+<img src="Findings/Closeness_Centrality.png" width="600" height="400" /><img src="Findings/Closeness_Centrality_Network.png" width="400" height="400"/>
 Community Detection: Partitioning the network into meaningful communities for streamlined exploration.
+<img src="Findings/Community_Detection.png" width="1000" height="1000" />
 Recommendation Engine: Providing personalized tag recommendations based on user interests.
 User Interface: A user-friendly interface enabling interactive exploration of community insights and recommendations.
+
 
 **Project Goals:**
 Enhance discoverability of technology tags on Stack Overflow.
