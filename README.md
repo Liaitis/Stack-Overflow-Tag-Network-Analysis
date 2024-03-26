@@ -34,32 +34,11 @@ _Tags with high closeness centrality, such as **jQuery, MySQL, AngularJS, and ot
 
 5. **User Interface:** An accessible user interface was created using HTML, CSS, and a Python Flask server, allowing users to interact with community detection and tag recommendation features seamlessly.
 <img src="Findings/Interface.png"/>
-<table>
-  <tr>
-    <td align="center">
-     <img src="Findings/Community.png" width="500" height="250"/>
-    </td>
-    <td align="center">
-     <img src="Findings/Recommendation.png" width="500" height="250"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-       <img src="Findings/Visualization.png" width="500" height="250"/>
-    </td>
-    <td align="center">
-      <img src="Findings/Recommendation_details.png" width="500" height="200"/>
-    </td>
-  </tr>
-   <tr>
-    <td align="center">
-       <img src="Findings/Community_details.png" width="500" height="250"/>
-    </td>
-    <td align="center">
-      
-    </td>
-  </tr>
-</table>
+ <img src="Findings/Community.png"/>
+ <img src="Findings/Visualization.png"/>
+<img src="Findings/Community_details.png"/>
+ <img src="Findings/Recommendation.png"/>
+<img src="Findings/Recommendation_details.png" />
 
 ## Project Goals:
 Enhance discoverability of technology tags on Stack Overflow.
